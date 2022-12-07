@@ -120,6 +120,12 @@ p {
     list-style: none;
 }
 
+#drinksmenu {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
+}
+
 #hot-menu {
     padding-top: 66px;
     width: 33%;
@@ -173,8 +179,3 @@ p {
     text-align: center;
 }
 
-#drinksmenu {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 280%;
-}
