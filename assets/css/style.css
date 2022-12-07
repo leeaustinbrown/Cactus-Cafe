@@ -15,16 +15,18 @@ body {
 
 /* headings and logo */
 
-h1,h2 {
+h1 {
     font-family: Nerko One, sans-serif;
     text-transform: uppercase;
     color: green;
     letter-spacing: 2px;
+    text-shadow: 4px 4px 4px greenyellow;
 }
 
 #logo {
     float: left;
     font-size: 400%;
+    margin-left: 30px;
 }
 
 /*navigation links */
@@ -58,13 +60,16 @@ h1,h2 {
     color: greenyellow;
 }
 
-/* homepage image */
+/* homepage image adn cover text */
 
 #homepage-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+}
 
+#cover-text, #cover-text h2 {
+    color: greenyellow;
 }
 
 #homepage-image {
@@ -73,3 +78,47 @@ h1,h2 {
     background: url('../images/pexels-lisa-fotios-13141331.jpg') no-repeat center center;
 }
 
+#cover-text {
+    font-size: 200%;
+    letter-spacing: 2px;
+
+    width: 800px;
+    height: 220px;
+
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    bottom: 300px;
+    right: 240px;
+
+    position: absolute;
+
+    text-shadow: 4px 4px 4px green;
+}
+
+/* cafe menu */
+
+#cafe-menu {
+    height: 600px;
+}
+
+#hot-menu {
+    padding-top: 33px;
+    width: 33%;
+    float: left;
+    background-color: grey;
+}
+
+#cold-menu {
+    padding-top: 33px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#image-menu {
+    padding-top: 33px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
+}
