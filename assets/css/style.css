@@ -23,6 +23,20 @@ h1 {
     text-shadow: 4px 4px 4px greenyellow;
 }
 
+p {
+    font-family: Klee One;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    text-align: center;
+    color: greenyellow;
+    text-shadow: none;
+    margin-left: 30px;   
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
 #logo {
     float: left;
     font-size: 400%;
@@ -60,7 +74,7 @@ h1 {
     color: greenyellow;
 }
 
-/* homepage image adn cover text */
+/* homepage image and cover text */
 
 #homepage-outer {
     height: 600px;
@@ -102,23 +116,65 @@ h1 {
     height: 600px;
 }
 
+#cafe-menu li {
+    list-style: none;
+}
+
 #hot-menu {
-    padding-top: 33px;
+    padding-top: 66px;
     width: 33%;
     float: left;
-    background-color: grey;
 }
 
 #cold-menu {
-    padding-top: 33px;
+    padding-top: 66px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
-#image-menu {
-    padding-top: 33px;
+#Cacti-menu {
+    padding-top: 66px;
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
+}
+
+.hot-menu-heading {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.cold-menu-heading {
+    width: 90%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.cacti-menu-heading {
+    width: 90%;
+    line-height: 20px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.hot-menu-heading h2 {
+    text-align: center;
+}
+
+.cold-menu-heading h2 {
+    text-align: center;
+}
+
+.cacti-menu-heading h2 {
+    text-align: center;
+}
+
+#drinksmenu {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
 }
