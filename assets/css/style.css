@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Klee One|Nerko One');
 
+* {
+    margin: 0;
+    padding: 0px;
+    border: none;
+}
+
 body {
     font-family: Nerko One, sans-serif;
     font-weight: 500;
     color: green;
+    margin-left: 30px;
 }
 
 /* headings and logo */
@@ -18,4 +25,35 @@ h1,h2 {
 #logo {
     float: left;
     font-size: 400%;
+}
+
+/*navigation links */
+
+#menu {
+    font-size: 200%;
+    margin-right: 30px; 
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: green;
+}
+
+#menu a:hover {
+    color: greenyellow;
+}
+
+.active {
+    color: greenyellow;
 }
