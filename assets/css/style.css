@@ -1,5 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Nerko One|Klee One');
+@import url('https://fonts.googleapis.com/css?family=Klee One|Nerko One');
 
 body {
-    font-family: Nerko One;
+    font-family: Nerko One, sans-serif;
+    font-weight: 500;
+    color: green;
+}
+
+/* headings and logo */
+
+h1,h2 {
+    font-family: Nerko One, sans-serif;
+    text-transform: uppercase;
+    color: green;
+    letter-spacing: 2px;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
 }
