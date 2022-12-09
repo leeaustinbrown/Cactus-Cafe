@@ -44,7 +44,7 @@ p {
     margin-left: 30px;
 }
 
-/*navigation links */
+/* navigation links */
 
 #menu {
     font-size: 200%;
@@ -86,7 +86,7 @@ p {
 .homepage-image {
     height: 600px;
     width: 100%;
-    background: url('../images/Cacti\ image\ 1.jpg') no-repeat center center;
+    background: url('../images/cactiimage1.jpg') no-repeat center center;
 }
 
 
@@ -182,6 +182,21 @@ p {
     text-align: center;
 }
 
+.cacti-menu-heading h3 {
+    font-size: 100%;
+    padding-top: 2px;
+}
+
+.hot-menu-heading h3 {
+    font-size: 100%;
+    padding-top: 2px;
+}
+
+.cold-menu-heading h3 {
+    font-size: 100%;
+    padding-top: 2px;
+}
+
 .hot-menu-heading h2 {
     text-align: center;
 }
@@ -191,6 +206,14 @@ p {
 }
 
 .hot-menu-heading p {
+    text-align: left;
+}
+
+.cold-menu-heading p {
+    text-align: left;
+}
+
+.cacti-menu-heading p {
     text-align: left;
 }
 
