@@ -83,7 +83,7 @@ p {
     overflow: hidden;
 }
 
-#homepage-image {
+.homepage-image {
     height: 600px;
     width: 100%;
     background: url('../images/Cacti\ image\ 1.jpg') no-repeat center center;
