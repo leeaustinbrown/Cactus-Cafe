@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nerko One');
+@import url('https://fonts.googleapis.com/css?family=Klee One');
 
 * {
     margin: 0;
@@ -9,7 +10,7 @@
 }
 
 body {
-    font-family: Nerko One, sans-serif;
+    font-family: Nerko One;
     font-weight: 500;
     color: green;
 }
