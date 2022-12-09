@@ -76,7 +76,7 @@ p {
     color: greenyellow;
 }
 
-/* homepage image and cover text */
+/* homepage image */
 
 #homepage-outer {
     height: 600px;
@@ -84,32 +84,40 @@ p {
     overflow: hidden;
 }
 
-#cover-text, #cover-text h2 {
-    color: greenyellow;
-}
-
 #homepage-image {
     height: 600px;
     width: 100%;
-    background: url('../images/pexels-lisa-fotios-13141331.jpg') no-repeat center center;
+    background: url('../images/Cacti\ image\ 1.jpg') no-repeat center center;
 }
 
-#cover-text {
-    font-size: 200%;
+
+/* About */
+#about {
+    height: 600px;
+}
+
+#about h2 {
+    font-size: 300%;
     letter-spacing: 2px;
+    padding-top: 30px;
+    text-align: center;
+    color: greenyellow;
+    text-shadow: 2px 2px 2px green;
+}
 
-    width: 800px;
-    height: 220px;
+#about p {
+    color: green;
+    text-align: center;
+    padding-top: 30px;
+  
+}
 
-    padding-top: 40px;
-    padding-bottom: 10px;
-
-    bottom: 300px;
-    right: 240px;
-
-    position: absolute;
-
-    text-shadow: 4px 4px 4px green;
+#cacti-image-2 {
+    height: 100%;
+    float: right;
+    width: 50%;
+    border-radius: 25px;
+    border: 2px solid green;
 }
 
 /* cafe menu */
@@ -133,7 +141,7 @@ p {
     width: 30%;
     float: left;
     border-radius: 20px;
-    border: 4px solid green;
+    border: 2px solid green;
     padding-left: 10px;
     padding-right: 0px;
 }
@@ -143,7 +151,7 @@ p {
     width: 30%;
     float: right;
     border-radius: 20px;
-    border: 4px solid green;
+    border: 2px solid green;
 }
 
 #Cacti-menu {
@@ -152,7 +160,7 @@ p {
     width: 30%;
     margin: 0 auto;
     border-radius: 20px;
-    border: 4px solid green;
+    border: 2px solid green;
     padding-bottom: 30px;
 }
 
@@ -234,17 +242,21 @@ p {
 }
 
 .signup {
-    
     margin-top: 15px;
     background-color: greenyellow;
     float: inline-start;
+}
+
+.offers {
+    padding-right: 5px;
+    color: red;
 }
 
 /* footer */
 footer {
     height: 100px;
     border-radius: 25px;
-    border: 2px solid blue;
+    border: 2px solid green;
     padding: 20px;
     width: 1280px;
     height: 80px; 
@@ -273,7 +285,7 @@ footer {
 
 footer h3 {
     font-family: Klee One, Oswald;
-    color: blue;
+    color: green;
     font-size: 150%;
     margin-left: 10px;
     margin-top: 30px;
