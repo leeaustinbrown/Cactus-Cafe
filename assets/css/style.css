@@ -201,11 +201,25 @@ p {
 .coffee-image {
     height: inherit;
     float: inline-end;
+    width: 30%;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+.juice-image {
+    height: inherit;
+    float: inline-end;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+#opening-times ul {
+    margin-left: 30px;
 }
 
 #opening-times h2 {
     font-size: 200%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #opening-times h3 {
@@ -213,9 +227,17 @@ p {
     color: green;
 }
 
-#opening-times h4 {
-    font-family: Klee One;
-    color: greenyellow;
+/* Signup form */
+
+.join {
+    margin-top: 50px;
+}
+
+.signup {
+    
+    margin-top: 15px;
+    background-color: greenyellow;
+    float: inline-start;
 }
 
 /* footer */
