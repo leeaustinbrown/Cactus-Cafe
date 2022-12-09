@@ -2,6 +2,8 @@
 
 * {
     margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 0px;
     border: none;
 }
@@ -127,21 +129,31 @@ p {
 }
 
 #hot-menu {
-    padding-top: 66px;
-    width: 33%;
+    padding-top: 20px;
+    width: 30%;
     float: left;
+    border-radius: 20px;
+    border: 4px solid green;
+    padding-left: 10px;
+    padding-right: 0px;
 }
 
 #cold-menu {
-    padding-top: 66px;
-    width: 33%;
+    padding-top: 20px;
+    width: 30%;
     float: right;
+    border-radius: 20px;
+    border: 4px solid green;
 }
 
 #Cacti-menu {
-    padding-top: 66px;
-    width: 33%;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 30%;
     margin: 0 auto;
+    border-radius: 20px;
+    border: 4px solid green;
+    padding-bottom: 30px;
 }
 
 .hot-menu-heading {
@@ -149,7 +161,7 @@ p {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .cold-menu-heading {
@@ -157,7 +169,7 @@ p {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .cacti-menu-heading {
@@ -165,6 +177,7 @@ p {
     line-height: 20px;
     clear: both;
     margin: 0 auto;
+    margin-left: 2px;
 }
 
 .hot-menu-heading h2 {
@@ -177,6 +190,32 @@ p {
 
 .cacti-menu-heading h2 {
     text-align: center;
+    
+}
+
+/* Opening Times*/
+#opening-times {
+    height: 600px;
+} 
+
+.coffee-image {
+    height: inherit;
+    float: inline-end;
+}
+
+#opening-times h2 {
+    font-size: 200%;
+    margin-bottom: 15px;
+}
+
+#opening-times h3 {
+    font-family: Klee One;
+    color: green;
+}
+
+#opening-times h4 {
+    font-family: Klee One;
+    color: greenyellow;
 }
 
 /* footer */
