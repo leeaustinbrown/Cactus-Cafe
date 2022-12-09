@@ -12,7 +12,6 @@ body {
     font-family: Nerko One, sans-serif;
     font-weight: 500;
     color: green;
-    
 }
 
 /* headings and logo */
@@ -156,7 +155,6 @@ p {
 
 #Cacti-menu {
     padding-top: 20px;
-    padding-left: 10px;
     width: 30%;
     margin: 0 auto;
     border-radius: 20px;
@@ -180,12 +178,8 @@ p {
     margin-bottom: 70px;
 }
 
-.cacti-menu-heading {
-    width: 90%;
-    line-height: 20px;
-    clear: both;
-    margin: 0 auto;
-    margin-left: 2px;
+.cacti-heading {
+    text-align: center;
 }
 
 .hot-menu-heading h2 {
@@ -196,8 +190,8 @@ p {
     text-align: center;
 }
 
-.cacti-heading {
-    text-align: center;
+.hot-menu-heading p {
+    text-align: left;
 }
 
 /* Opening Times*/
@@ -285,3 +279,65 @@ footer h3 {
     margin-top: 30px;
 }
 
+/* For larger to medium screens */
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #about {
+        width: auto;
+        height: 768px;
+    }
+
+    #cacti-image-2 {
+        display: none;
+    }
+    
+    #cafe-menu {
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+
+    .hot-menu-heading p {
+        font-size: 4vw;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .cold-menu-heading p {
+        font-size: 4vw;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .cacti-menu-heading p {
+        font-size: 4vw;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #opening-times {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .social-networks {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    footer {
+        margin-top: 1400px;
+        clear: both;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
