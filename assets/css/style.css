@@ -179,3 +179,42 @@ p {
     text-align: center;
 }
 
+/* footer */
+footer {
+    height: 100px;
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 1280px;
+    height: 80px; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+    float: right;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin-top: 50%;
+    padding: 5%;
+    float: right;
+    margin-right: 30px; 
+    letter-spacing: 2px;
+    color: blue;
+}
+
+footer h3 {
+    font-family: Klee One, Oswald;
+    color: blue;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
