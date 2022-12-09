@@ -279,7 +279,7 @@ footer h3 {
     margin-top: 30px;
 }
 
-/* For larger to medium screens */
+/* For mobile screens */
 @media screen and (max-width: 1200px) {
     body {
         width: 100%;
