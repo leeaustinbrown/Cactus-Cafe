@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Klee One|Nerko One');
+@import url('https://fonts.googleapis.com/css?family=Nerko One');
 
 * {
     margin: 0;
@@ -182,21 +182,6 @@ p {
     text-align: center;
 }
 
-.cacti-menu-heading h3 {
-    font-size: 100%;
-    padding-top: 2px;
-}
-
-.hot-menu-heading h3 {
-    font-size: 100%;
-    padding-top: 2px;
-}
-
-.cold-menu-heading h3 {
-    font-size: 100%;
-    padding-top: 2px;
-}
-
 .hot-menu-heading h2 {
     text-align: center;
 }
@@ -339,7 +324,6 @@ footer h3 {
     .cacti-menu-heading p {
         font-size: 4vw;
         width: 100%;
-        margin-left: 0%;
     }
 
     #opening-times {
